@@ -51,6 +51,13 @@ const resultsMapping = {
         "traditionalism": "Traditionalism",
         "reactionary_modernism": "Reactionary Modernism"
     },
+    "fictional_philosophy": {
+        "doylism": "Doylism",
+        "watsonianism": "Watsonianism",
+        "limited_watsonianism": "Limited Watsonianism",
+        "ideological_doylism": "Ideological Doylism",
+        "moralist_doylism": "Moralist Doylism"
+    },
     "authority": {
         "theocracy": "Theocracy",
         "absolute": "Absolute Monarchy",
@@ -103,6 +110,10 @@ const subCategories = {
         "corpotatists": ["corporatism", "social_corporatism", "yellow_socialism"],
         "distributist": ["distributism", "social_distributism", "mutual_distributism", "agrarian_socialism", "free_market_distributism"]
     },
+    "fictional_philosophy": {
+        "general_doylism": ["moralist_doylism", "ideological_doylism", "doylism"],
+        "general_watsonianism": ["limited_watsonianism", "watsonianism"]
+    },
     "resource_management": {
         "mainstream_tax": ["flat_taxation", "Progressive_Taxation", "lvt"],
         "farleft_tax": ["Confiscatory_Taxation", "collective_distribution"]
@@ -142,6 +153,7 @@ const incompatibleSubCategories = {
 
     "divine": "mainstreampower",
     "mainstreampower": "auth",
+    "general_watsonianism": "general_doylism",
 
     "global": "hitler",
 
@@ -498,6 +510,7 @@ const categoryTitles = {
     "economics": "Economic systems",
     "resource_management": "Resource management",
     "culture": "Cultural values",
+    "fictional_philosophy": "Fictional Story Philosophy",
     "authority": "Authority",
     "nation": "National identity",
     "foreign": "Foreign policy"
@@ -644,6 +657,12 @@ const descriptions = {
     "Progressive_Taxation": "A tax system where the tax rate increases as the taxable amount increases, shifting the burden toward those with higher incomes.",
     "Confiscatory_Taxation": "An extremely high tax rate—often near 100%—above a certain income threshold, intended to redistribute wealth or limit extreme inequality.",
     "collective_distribution": "An economic principle where goods and services are allocated based on the needs or contributions of the community. It prioritizes shared access over individual ownership to ensure equitable resource management.",
+    // fictional_philosphy
+    "moralist_doylism": "A philosphy that argues that a work of fiction should be viewed within the morality of our real world.",
+    "ideological_doylism": "A philosphy that argues that Ideological ideals should be consistent within fiction.",
+    "doylism": "A philosophy that argues that stories should be viewed within the context of the real world rather than on it's own terms.",
+    "limited_watsonianism": "A philosophy that argues that Stories should be viewed in their own terms, but also partially within context of the real world.",
+    "watsonianism": "A philosophy that argues that Stories should be viewed in their own terms, rather than within our real world..",
     // culture
     "postmodernism": "A skeptical worldview that questions \"grand narratives,\" objective truth, and traditional authority, emphasizing the role of language, power, and individual perspective.",
     "civil_liberalism": "A political philosophy emphasizing the protection of individual rights and civil liberties against state interference or social coercion.",
